@@ -1,0 +1,22 @@
+--cpu Cortex-M4.fp
+".\objects\main.o"
+".\objects\step_driver.o"
+".\objects\misc.o"
+".\objects\stm32f4xx_adc.o"
+".\objects\stm32f4xx_dma.o"
+".\objects\stm32f4xx_exti.o"
+".\objects\stm32f4xx_fsmc.o"
+".\objects\stm32f4xx_gpio.o"
+".\objects\stm32f4xx_i2c.o"
+".\objects\stm32f4xx_rcc.o"
+".\objects\stm32f4xx_spi.o"
+".\objects\stm32f4xx_tim.o"
+".\objects\stm32f4xx_usart.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\LIB\ARM\RTX_CM4.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\startup_stm32f407xx.o"
+".\objects\system_stm32f4xx.o"
+--strict --scatter ".\Objects\OpticalWB.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\OpticalWB.map" -o .\Objects\OpticalWB.axf
